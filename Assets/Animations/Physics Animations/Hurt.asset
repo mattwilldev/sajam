@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28d4e46584dd5fb4587dc42bd447c853, type: 3}
+  m_Name: Hurt
+  m_EditorClassIdentifier: 
+  fullBodyAnimationState: Hurt Animation
+  fullBodyJointFollowForceM: 0.5
+  legJointFollowForceM: 1
+  armsJointFollowForceM: 9
+  spineJointFollowForceM: 6
+  headJointFollowForceM: 3
+  facingDirectionM: 0.01
+  movementForwardForce: 0
+  holdUprightForceM: 0.01
+  spineAlignmentForceM: 0
+  limitVelocitiesM: 0
+  spineDrag: 0
+  maintainHeights: 0
+  maintainHeightOffset: 0
+  startSound: {fileID: 0}
+  vocalSound: {fileID: 0}
