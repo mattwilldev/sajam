@@ -39,6 +39,8 @@ public class AddForceToBall : MonoBehaviour
                 direction += Vector3.right;
             }
 
+            Debug.Log("Thrust " + (direction * thrust));
+
             rb.AddForce(direction * thrust, ForceMode.Impulse);
         }
     }
