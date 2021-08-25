@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28d4e46584dd5fb4587dc42bd447c853, type: 3}
   m_Name: Idle
   m_EditorClassIdentifier: 
-  fullBodyAnimationState: Wave Animation
+  fullBodyAnimationState: Tpose Animation
   fullBodyJointFollowForceM: 1
   legJointFollowForceM: 1
   armsJointFollowForceM: 1
@@ -26,5 +26,3 @@ MonoBehaviour:
   spineDrag: 45
   maintainHeights: 1
   maintainHeightOffset: 0
-  startSound: {fileID: 0}
-  vocalSound: {fileID: 0}
