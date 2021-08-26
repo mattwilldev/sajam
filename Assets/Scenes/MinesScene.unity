@@ -2680,13 +2680,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4abd0bb2b16674c27960e787bc454c67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 2
+  radius: 10
   power: 500
   collisionThreshold: 1
   explosionCountDown: 1.5
   blinkFrequency: 2
   explosiveMaterial: {fileID: 2100000, guid: 58007f77642cd4eb49dfaa744d7f6b9b, type: 2}
-  explosionParticle: {fileID: 3877869383212410836, guid: 4ebc0a5ae67c643d3884249212d8e300, type: 3}
+  explosionParticle: {fileID: 7295971278095826270, guid: c58c6cbcfa4284534ab692f8b4cb819a, type: 3}
 --- !u!54 &1084667044
 Rigidbody:
   m_ObjectHideFlags: 0

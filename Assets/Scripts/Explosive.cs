@@ -15,6 +15,8 @@ public class Explosive : MonoBehaviour
     [Tooltip("The frequency with which this object blinks before the explosion.")]
     [Range(1, 10)] 
     public int blinkFrequency = 1;
+    [Tooltip("Number of seconds to wait before destroying particle.")]
+    public int destroyParticleAfter = 1;
     [Tooltip("The material used for the blink effect.")]
     public Material explosiveMaterial;
     [Tooltip("The particles spawned after the explosion.")]
@@ -75,7 +77,7 @@ public class Explosive : MonoBehaviour
             //Instantiate a particle system
             var particle = Instantiate(explosionParticle, transform.position, explosionParticle.transform.rotation);
             //And then destroy it after 3 seconds
-            Destroy(particle, 3);
+            Destroy(particle, 1);
         }
 
         if(impulseSource != null)
