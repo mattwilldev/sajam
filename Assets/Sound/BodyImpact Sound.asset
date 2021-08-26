@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 395d2d377cd39c2429eb1c13bbe949a9, type: 3}
+  m_Name: BodyImpact Sound
+  m_EditorClassIdentifier: 
+  _clips:
+  - {fileID: 8300000, guid: f9c6dce9dd71d044894ec3534df19654, type: 3}
+  - {fileID: 8300000, guid: 22743601997df1842a876d7181f4050b, type: 3}
+  - {fileID: 8300000, guid: 6b05350eae10a6c40819ce1434f7a30c, type: 3}
+  - {fileID: 8300000, guid: 7cb29d0c00e56894890e26ca6c1bb69f, type: 3}
+  - {fileID: 8300000, guid: 095d22368c859c9418b2ad60b7814be9, type: 3}
+  - {fileID: 8300000, guid: 0b1ebf8c6af000b44afbf1606c5fed16, type: 3}
+  _attenuationRange: 50
+  _volume:
+    _min: 0.25
+    _max: 0.25
+  _pitch:
+    _min: 1.4
+    _max: 1.4
+  _minVelocity: 0.2
+  _maxVelocity: 22
+  _pitchVelocityMultiplier:
+    _min: 0.7
+    _max: 1.1
+  _volumeVelocityMultiplier:
+    _min: 0.03
+    _max: 1
+  _minRepeatInterval: 0.1

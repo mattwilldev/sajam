@@ -363,6 +363,14 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 920461482516738174, guid: 5a56ebbb0016b473aad61e47d8425460, type: 3}
+      propertyPath: _impactSound
+      value: 
+      objectReference: {fileID: 11400000, guid: 3fdfd65f5071cac449dfcdb07c3c0937, type: 2}
+    - target: {fileID: 1006094856921459656, guid: 5a56ebbb0016b473aad61e47d8425460, type: 3}
+      propertyPath: _impactSound
+      value: 
+      objectReference: {fileID: 11400000, guid: 3dc281e434909df469c12bb16231e26b, type: 2}
     - target: {fileID: 1059510126016210447, guid: 5a56ebbb0016b473aad61e47d8425460, type: 3}
       propertyPath: m_TagString
       value: Player
@@ -391,6 +399,14 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2730700088334844818, guid: 5a56ebbb0016b473aad61e47d8425460, type: 3}
+      propertyPath: _impactSound
+      value: 
+      objectReference: {fileID: 11400000, guid: dc3f598059606d74886426eb95836879, type: 2}
+    - target: {fileID: 2875967541256848139, guid: 5a56ebbb0016b473aad61e47d8425460, type: 3}
+      propertyPath: _impactSound
+      value: 
+      objectReference: {fileID: 11400000, guid: 3dc281e434909df469c12bb16231e26b, type: 2}
     - target: {fileID: 3937729239432505964, guid: 5a56ebbb0016b473aad61e47d8425460, type: 3}
       propertyPath: m_TagString
       value: Player
@@ -711,6 +727,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8116134673121960560, guid: 5a56ebbb0016b473aad61e47d8425460, type: 3}
+      propertyPath: _impactSound
+      value: 
+      objectReference: {fileID: 11400000, guid: 3fdfd65f5071cac449dfcdb07c3c0937, type: 2}
     - target: {fileID: 8234171559561581655, guid: 5a56ebbb0016b473aad61e47d8425460, type: 3}
       propertyPath: m_TagString
       value: Player

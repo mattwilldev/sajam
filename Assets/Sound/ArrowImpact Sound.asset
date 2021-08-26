@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 395d2d377cd39c2429eb1c13bbe949a9, type: 3}
+  m_Name: ArrowImpact Sound
+  m_EditorClassIdentifier: 
+  _clips:
+  - {fileID: 8300000, guid: 2b93581c231a5844d9902b5967157e6c, type: 3}
+  - {fileID: 8300000, guid: 64be9cb1bf17f774abbc77a12d4b1a44, type: 3}
+  - {fileID: 8300000, guid: 2bccc46182e53f646ac27b35ab03fb99, type: 3}
+  - {fileID: 8300000, guid: 881ed0d9a69dbcd4ea7179eed5306161, type: 3}
+  - {fileID: 8300000, guid: 97ce26d4f01cf604bbdd4d7f2581fa78, type: 3}
+  - {fileID: 8300000, guid: 62ecfa7643c8b434898a7fb7186c4822, type: 3}
+  - {fileID: 8300000, guid: 9d6957df6d7396a459d71fa0331ad990, type: 3}
+  _attenuationRange: 50
+  _volume:
+    _min: 0.08
+    _max: 0.08
+  _pitch:
+    _min: 2
+    _max: 2
+  _minVelocity: 0.2
+  _maxVelocity: 3
+  _pitchVelocityMultiplier:
+    _min: 0.7
+    _max: 1.1
+  _volumeVelocityMultiplier:
+    _min: 0.03
+    _max: 1
+  _minRepeatInterval: 0.01

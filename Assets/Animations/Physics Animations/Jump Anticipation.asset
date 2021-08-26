@@ -26,7 +26,5 @@ MonoBehaviour:
   spineDrag: 0
   maintainHeights: 1
   maintainHeightOffset: -0.33
-  startSound: {fileID: 0}
-  vocalSound: {fileID: 0}
   duration: 0.33
   nextState: {fileID: 11400000, guid: c1338b1fe93b57b4da8260cf6d391393, type: 2}

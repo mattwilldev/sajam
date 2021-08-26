@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b051b60dd9d3f1e4e8f476b005e1fc2a, type: 3}
+  m_Name: KnockOut
+  m_EditorClassIdentifier: 
+  _clips:
+  - {fileID: 8300000, guid: 47d4c7cddaa3ee747a21f8b52740ea70, type: 3}
+  - {fileID: 8300000, guid: 1d8f5aeb0acbce046a07f7fe33fdc8f2, type: 3}
+  - {fileID: 8300000, guid: 4d41c35b1a1344641be5d2973c77e2aa, type: 3}
+  _attenuationRange: 50
+  _volume:
+    _min: 0.2
+    _max: 0.2
+  _pitch:
+    _min: 1
+    _max: 1

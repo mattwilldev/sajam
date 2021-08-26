@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 395d2d377cd39c2429eb1c13bbe949a9, type: 3}
+  m_Name: BoxImpact Sound
+  m_EditorClassIdentifier: 
+  _clips:
+  - {fileID: 8300000, guid: 8813cbb47888eae42aafaf23ed4a3c05, type: 3}
+  - {fileID: 8300000, guid: dd31b2ff89179324ba9e497b87bdf110, type: 3}
+  - {fileID: 8300000, guid: 1c6c7530fb59ae246b9e65612e97fa88, type: 3}
+  - {fileID: 8300000, guid: 7347ef336decc0942a9c6f5c4f09df18, type: 3}
+  - {fileID: 8300000, guid: 55946158edf717c41b36ce1f481baa6b, type: 3}
+  - {fileID: 8300000, guid: 8c431a6e1cf1df945a86aa34c785c3f2, type: 3}
+  - {fileID: 8300000, guid: 203a8802591751846851e84affc68984, type: 3}
+  _attenuationRange: 50
+  _volume:
+    _min: 0.5
+    _max: 0.5
+  _pitch:
+    _min: 1.2
+    _max: 1.2
+  _minVelocity: 0.1
+  _maxVelocity: 12
+  _pitchVelocityMultiplier:
+    _min: 0.7
+    _max: 1.1
+  _volumeVelocityMultiplier:
+    _min: 0.03
+    _max: 1
+  _minRepeatInterval: 0.1

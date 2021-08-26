@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 395d2d377cd39c2429eb1c13bbe949a9, type: 3}
+  m_Name: LimbImpact Sound
+  m_EditorClassIdentifier: 
+  _clips:
+  - {fileID: 8300000, guid: 469893230d8ae8c45b4da7691f1a4595, type: 3}
+  - {fileID: 8300000, guid: 432f7db753cf2434f81cbac8569e734d, type: 3}
+  - {fileID: 8300000, guid: b04bbd7db4f5f9445af7d1eab316deea, type: 3}
+  - {fileID: 8300000, guid: 56e1039f84e38ba4cb82522246ba12e6, type: 3}
+  - {fileID: 8300000, guid: ded07e9979f6e114bb5571223beb6f77, type: 3}
+  _attenuationRange: 50
+  _volume:
+    _min: 0.2
+    _max: 0.2
+  _pitch:
+    _min: 1.6
+    _max: 1.6
+  _minVelocity: 0.2
+  _maxVelocity: 20
+  _pitchVelocityMultiplier:
+    _min: 0.7
+    _max: 1.1
+  _volumeVelocityMultiplier:
+    _min: 0.03
+    _max: 1
+  _minRepeatInterval: 0.1
