@@ -21,6 +21,8 @@ public class Explosive : MonoBehaviour
     public Material explosiveMaterial;
     [Tooltip("The particles spawned after the explosion.")]
     public GameObject explosionParticle;
+    public CharacterHealth characterHealth;
+    public int explosionDamageToHealth = 2;
 
     //Used to shake the camera providing a screenshake effect
     CinemachineImpulseSource impulseSource;
@@ -41,11 +43,13 @@ public class Explosive : MonoBehaviour
     //When this collides with another object
     void OnCollisionEnter(Collision collision) 
     {
-        //Check if it's already exploded AND if the collision was hard enough to exceed the collision threshold
-        if(!alreadyExploded && collision.relativeVelocity.magnitude >= collisionThreshold)
-        {
-            WaitAndExplode();
-            alreadyExploded = !alreadyExploded;
+        if (collision.gameObject.tag == "Player") {
+            //Check if it's already exploded AND if the collision was hard enough to exceed the collision threshold
+            if(!alreadyExploded && collision.relativeVelocity.magnitude >= collisionThreshold)
+            {
+                WaitAndExplode();
+                alreadyExploded = !alreadyExploded;
+            }
         }
     }
 
@@ -68,6 +72,9 @@ public class Explosive : MonoBehaviour
                 //If it does, add explosion force and send it flying
                 var realPower = power /Time.timeScale;
                 rb.AddExplosionForce(realPower, explosionPos, radius, 1);
+
+                // Deal damage
+                characterHealth.Damage(explosionDamageToHealth, null, null, Vector3.up);
             }
         }
 
