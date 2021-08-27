@@ -9,8 +9,10 @@ public class FollowPlayer : MonoBehaviour
     public Vector3 offset;
 
     void FixedUpdate() {
-        float x = (Mathf.Round(player.position.x * 100)) / 100.0f;
-        float z = (Mathf.Round(player.position.z * 100)) / 100.0f;
+        // float x = (Mathf.Round(player.position.x * 100)) / 100.0f;
+        // float z = (Mathf.Round(player.position.z * 100)) / 100.0f;
+        float x = player.position.x;
+        float z = player.position.z;
         Vector3 cameraPosition = new Vector3(x, transform.position.y, z);
 
         Vector3 desiredPosition = cameraPosition + offset;

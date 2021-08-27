@@ -22,6 +22,9 @@ public class CharacterController : MonoBehaviour
     public KeyCode keyCodeRight = KeyCode.RightArrow;
     public KeyCode keyCodeJump = KeyCode.RightControl;
     public KeyCode keyCodeHighFive = KeyCode.RightShift;
+
+    public GameObject dustParticle;
+    public Transform dustParticleTransform;
     //
     private float _inputDelay = 0;
     //
