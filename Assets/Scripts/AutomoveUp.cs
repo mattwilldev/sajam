@@ -11,8 +11,12 @@ public class AutomoveUp : MonoBehaviour
     void FixedUpdate() {
         Debug.Log("Player Z: " + player.position.z);
         if (player.position.z > autoMoveStartZ) {
-            Vector3 cameraPosition = new Vector3(transform.position.x, transform.position.y, transform.position.z + moveSpeed);
-            transform.position = cameraPosition;
+            if (transform.position.z > player.position.z - 8) {
+                Debug.Log("Game Over");
+            } else {
+                Vector3 cameraPosition = new Vector3(transform.position.x, transform.position.y, transform.position.z + moveSpeed);
+                transform.position = cameraPosition;
+            }
         }
     }
 }
